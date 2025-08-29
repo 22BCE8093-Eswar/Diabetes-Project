@@ -54,7 +54,7 @@ python-3.11.8
 ````
 
 
-2. Deployment on Render
+### 2. Deployment on Render
 Push your project to GitHub.
 
 Go to Render Dashboard.
@@ -79,7 +79,7 @@ gunicorn app:app
 Deploy 
 
 
-3. Verify
+### 3. Verify
    
 Once deployed, open the Render-provided URL.
 
