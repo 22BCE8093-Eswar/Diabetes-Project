@@ -2,6 +2,7 @@
 
 This project is a simple Flask web application deployed on **Render**.  
 
+url: https://diabetes-web-xcmp.onrender.com/
 
 ---
 
