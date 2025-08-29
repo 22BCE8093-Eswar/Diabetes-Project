@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(to right, #8956c0, #4678cd);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Container for form */
+.container {
+    background-color: rgba(255, 255, 255, 0.85); /* Distinct light color */
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    width: 350px;
+    text-align: center;
+    color: #333; /* Dark text for contrast */
+    border: 2px solid #ff4b2b; /* Optional colored border for accent */
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #2575fc; /* Accent color matching background */
+}
+
+/* Input fields */
+input[type=number] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 20px;
+    background-color: #127928;
+    background-image: linear-gradient(45deg, #09420a, #095a30);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Prediction text */
+h2 {
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgba(255, 69, 99, 0.2);
+    border-radius: 8px;
+    font-weight: bold;
+    color: #ff416c;
+}
+
+/* Responsive for small screens */
+@media screen and (max-width: 400px) {
+    .container {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
